@@ -14,7 +14,7 @@ const Add = () => {
     }
   return (
     <div style={{
-        backgroundImage: 'url("https://plus.unsplash.com/premium_photo-1701646600168-5d599b350398?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhZGllbnQlMjBibHVlfGVufDB8fDB8fHww")',
+        backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRWPhFvuWFWmQwca58nyuyicoYdgIeeQtYBQ&s")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh'

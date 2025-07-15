@@ -29,7 +29,7 @@ const Viewall = () => {
     useEffect(()=>{fetchData()},[])
   return (
     <div style={{
-        backgroundImage: 'url("https://plus.unsplash.com/premium_photo-1701646600168-5d599b350398?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhZGllbnQlMjBibHVlfGVufDB8fDB8fHww")',
+        backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRWPhFvuWFWmQwca58nyuyicoYdgIeeQtYBQ&s")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh'
@@ -42,7 +42,7 @@ const Viewall = () => {
                         
 
                                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <table class="table table-bordered table-striped-columns table-hover table-warning-subtle">
+                            <table class="table table-bordered table-striped-columns table-hover table-warning">
   <thead>
     <tr>
       <th scope="col">login</th>
@@ -80,7 +80,7 @@ const Viewall = () => {
       <td>{value.login}</td>
       <td>{value.id}</td>
       <td>{value.node_id}</td>
-      <td>{value.avatar_url}</td>
+      <td><img className='rounded-circle' src={value.avatar_url} height="50px" width="50px"/></td>
       <td>{value.gravatar_url}</td>
       <td>{value.followers_url}</td>
       <td>{value.following_url}</td>

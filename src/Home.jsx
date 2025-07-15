@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                    
 
-                   <h1>Welcome to GitHuB</h1>
+                   <h1>Welcome to GitHub</h1>
                   <h3>Open source, open minds – feel free to fork, clone, or star the project</h3>
                 </div>
             </div>
